@@ -253,3 +253,17 @@
 .route-clear-btn:hover {
   background: rgba(255, 255, 255, 0.18);
 }
+
+
+main, .sec, .hero, .nav, footer, .preloader {
+  position: relative;
+  z-index: 1;
+}
+#bg-particles {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+}
